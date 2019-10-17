@@ -6,6 +6,7 @@ func StrRev(s string) string {
 	b := 0
 	for j := range runes {
 		b++
+		j = j
 	}
 	for i := 0; i < b/2; i++ {
 		a = runes[i]
