@@ -5,5 +5,5 @@ func StrLen(str string) int {
 	runes := []rune(str)
 	for i = range runes {
 	}
-	return i+1
+	return i + 1
 }
