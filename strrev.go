@@ -3,7 +3,7 @@ package piscine
 func StrRev(s string) string {
 	runes := []rune(s)
 	var a rune
-	b := 0 
+	b := 0
 	for j := range runes {
 		b++
 	}
