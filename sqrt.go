@@ -1,7 +1,7 @@
 package piscine
 
 func Sqrt(nb int) int {
-	if i == 1 {
+	if nb == 1 {
 		return 1
 	}
 	for i := 2; i <= nb/2; i++ {
