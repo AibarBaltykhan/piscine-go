@@ -1,6 +1,6 @@
 package piscine
 
-func RecursiveFactorial(nb int) int 
+func RecursiveFactorial(nb int) int {
 	if nb == 0 {
 		return 1
 	}
