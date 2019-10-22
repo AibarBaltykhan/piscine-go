@@ -3,7 +3,7 @@ package piscine
 func Index(s string, toFind string) int {
 	w1 := []rune(s)
 	w2 := []rune(toFind)
-	if w2 == NULL  {
+	if w2 == NULL {
 		return 0
 	}
 	k := 0
