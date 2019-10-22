@@ -1,11 +1,11 @@
 package piscine
 
 func Index(s string, toFind string) int {
-	w1 := []rune(s)
-	w2 := []rune(toFind)
-	if w2 == "" {
+	if toFind == "" {
 		return 0
 	}
+	w1 := []rune(s)
+	w2 := []rune(toFind)
 	k := 0
 	l := -1
 	t := 1
