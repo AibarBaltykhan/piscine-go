@@ -1,6 +1,5 @@
 package piscine
 
-
 func Atoi(s string) int {
 	if s == "" {
 		return 0
