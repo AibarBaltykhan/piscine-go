@@ -10,12 +10,12 @@ func TrimAtoi(s string) int {
 
 	for index, i := range runes {
 		if runes[index] == '-' {
-			index += 100
 			isneg++
 			i = i
+			break
 		}
 		if runes[index] >= '0' && runes[index] <= '9' {
-			index += 100
+			break
 		}
 	}
 	for _, j := range runes {
@@ -47,5 +47,5 @@ func TrimAtoi(s string) int {
 	if isneg >= 1 {
 		result *= -1
 	}
-	return result
+return result
 }
