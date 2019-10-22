@@ -9,14 +9,16 @@ func TrimAtoi(s string) int {
 	runes := []rune(s)
 
 	for index, i := range runes {
-		if runes[index] == '-' && runes[index+1] >= '0' && runes[index+1] < '9' {
+		if runes[index] == '-' {
+			index += 100
 			isneg++
 			i = i
 		}
+		if runes[index] >= '0' && runes[index] <= '9' 
 	}
 
 	for _, j := range runes {
-		if j >= '0' && j < '9' {
+		if j >= '0' && j <= '9' {
 			result *= 10
 			if j == '0' {
 				result += 0
