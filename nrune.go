@@ -2,5 +2,5 @@ package piscine
 
 func NRune(s string, n int) rune {
 	runes := []rune(s)
-	return runes[n]
+	return runes[n-1]
 }
