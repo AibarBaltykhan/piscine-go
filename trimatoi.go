@@ -14,7 +14,9 @@ func TrimAtoi(s string) int {
 			isneg++
 			i = i
 		}
-		if runes[index] >= '0' && runes[index] <= '9' 
+		if runes[index] >= '0' && runes[index] <= '9' {
+			index += 100
+		} 
 	}
 	for _, j := range runes {
 		if j >= '0' && j <= '9' {
