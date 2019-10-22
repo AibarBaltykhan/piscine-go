@@ -19,8 +19,8 @@ func Index(s string, toFind string) int {
 		j = j
 		inde = inde
 		if w1[inde] == w2[0] {
-			for m := l + 1; m <= l+k-1; m++ {
-				if w1[m] == w2[m-l] {
+			for m := 1; m <= k-1; m++ {
+				if w1[inde+m] == w2[m] {
 					t++
 				}
 			}
