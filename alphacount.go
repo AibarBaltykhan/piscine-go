@@ -1,7 +1,5 @@
 package piscine
 
-import "github.com/01-edu/z01.PrintRune"
-
 func AlphaCount(str string) int {
 	count := 0
 	for _, n := range str {
