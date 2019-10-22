@@ -16,13 +16,13 @@ func Index(s string, toFind string) int {
 		j = j
 		inde = inde
 		if j == w2[0] {
-			for m := l; m <= l + k; l++ {
+			for m := l; m <= l+k; l++ {
 				if w1[m] == w2[k] {
 					t++
 				}
 
 			}
-			if t == k + 1 {
+			if t == k+1 {
 				return l
 			}
 		}
