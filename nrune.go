@@ -9,7 +9,7 @@ func NRune(s string, n int) rune {
 		index = index
 	}
 	if n > k {
-		return ' '
+		return '\x00'
 	}
 	return runes[n-1]
 }
