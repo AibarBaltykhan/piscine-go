@@ -47,5 +47,5 @@ func TrimAtoi(s string) int {
 	if isneg >= 1 {
 		result *= -1
 	}
-return result
+	return result
 }
