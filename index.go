@@ -11,7 +11,7 @@ func Index(s string, toFind string) int {
 		i = i
 		index = index
 	}
-	for index, j := range w1 {
+	for inde, j := range w1 {
 		l++
 		j = j
 		inde = inde
