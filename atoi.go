@@ -17,7 +17,6 @@ func Atoi(s string) int {
 		result *= 10
 		if j >= '0' && j <= '9' {
 			result = result + 'j' - '0'
-			return 0
 		}
 	}
 	if isneg == 1 {
