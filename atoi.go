@@ -16,11 +16,16 @@ func Atoi(s string) int {
 	for _, j := range runes {
 		result *= 10
 		if j >= '0' && j <= '9' {
-			result = result + 'j' - '0'
+			result = result + j - '0'
 		}
 	}
 	if isneg == 1 {
 		result *= -1
 	}
+	}
 	return result
+	}
 }
+	}
+
+	}
