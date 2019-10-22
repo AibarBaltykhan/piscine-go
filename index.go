@@ -3,8 +3,8 @@ package piscine
 func Index(s string, toFind string) int {
 	w1 := []rune(s)
 	w2 := []rune(toFind)
-	k := -1
-	l := -1
+	k := 0
+	l := 0
 	t := 0
 	for index, i := range w2 {
 		k++
