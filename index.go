@@ -5,7 +5,7 @@ func Index(s string, toFind string) int {
 	w2 := []rune(toFind)
 	k := 0
 	l := 0
-	t := 0
+	t := 1
 	for index, i := range w2 {
 		k++
 		i = i
@@ -16,16 +16,15 @@ func Index(s string, toFind string) int {
 		j = j
 		inde = inde
 		if j == w2[0] {
-			for m := l; m < l+k-1; l++ {
-				if w1[m] == w2[k] {
+			for m := l; m <= l+k-2; l++ {
+				if w1[m] == w2[m-l+1] {
 					t++
 				}
-
 			}
 			if t == k {
 				return l
 			}
 		}
-	}
 	return -1
+	}
 }
