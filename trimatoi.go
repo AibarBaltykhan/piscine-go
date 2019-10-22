@@ -16,7 +16,6 @@ func TrimAtoi(s string) int {
 		}
 		if runes[index] >= '0' && runes[index] <= '9' 
 	}
-
 	for _, j := range runes {
 		if j >= '0' && j <= '9' {
 			result *= 10
