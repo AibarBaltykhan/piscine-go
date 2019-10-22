@@ -3,12 +3,12 @@ package piscine
 func Index(s string, toFind string) int {
 	l1 := 0
 	l2 := 0
-	for a, y := range(s) {
+	for a, y := range s {
 		l1++
 		a = a
 		y = y
 	}
-	for b, z := range(toFind) {
+	for b, z := range toFind {
 		l2++
 		b = b
 		z = z
