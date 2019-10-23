@@ -13,6 +13,6 @@ func ToUpper(s string) string {
 			runes[i] = runes[i] - 32
 		}
 	}
-	s := string(runes)
+	s = string(runes)
 	return s
 }
