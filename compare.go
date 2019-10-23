@@ -3,7 +3,6 @@ package piscine
 func Compare(a, b string) int {
 	l1 := -1
 	l2 := -1
-	n := 0
 	for a, y := range a {
 		l1++
 		a = a
@@ -15,9 +14,9 @@ func Compare(a, b string) int {
 		z = z
 	}
 	if l1 > l2 {
-		n = l2
+		n := l2
 	} else {
-		n = l1
+		n := l1
 	}
 	r1 := []rune(a)
 	r2 := []rune(b)
