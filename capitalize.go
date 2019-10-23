@@ -2,7 +2,7 @@ package piscine
 
 func Capitalize(s string) string {
 	runes := []rune(s)
-	l := 0
+	l := -1
 	for a, y := range runes {
 		l++
 		a = a
