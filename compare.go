@@ -16,7 +16,7 @@ func Compare(a, b string) int {
 	}
   	if l1 > l2 {
     	n = l2
-  	} else { 
+  	} else {
     		n = l1
  	}
   	r1 := []rune(a)
