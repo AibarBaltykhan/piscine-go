@@ -1,6 +1,6 @@
 package piscine
 
-func ToUpper(s string) string {
+func ToLower(s string) string {
 	runes := []rune(s)
 	l := -1
 	for a, y := range runes {
