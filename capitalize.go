@@ -9,7 +9,7 @@ func Capitalize(s string) string {
 		y = y
 	}
 	if l < 0 {
-		return 0
+		return '0'
 	}
 	for i := l; i >= 0; i-- {
 		if runes[0] >= 'a' && runes[0] <= 'z' {
