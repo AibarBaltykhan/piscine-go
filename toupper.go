@@ -1,7 +1,7 @@
 package piscine
 
 func ToUpper(s string) string {
-	runes := [] rune(s)
+	runes := []rune(s)
 	l := -1
 	for a, y := range runes {
 		l++
