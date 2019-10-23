@@ -20,7 +20,7 @@ func Compare(a, b string) int {
 	}
 	r1 := []rune(a)
 	r2 := []rune(b)
-	for i := 0; i <= l1; i++ {
+	for i := 0; i <= n; i++ {
 		if r1[i] > r2[i] {
 			return 1
 		}
