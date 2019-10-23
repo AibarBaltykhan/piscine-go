@@ -1,6 +1,6 @@
 package piscine
 
-import ( 
+import (
 	"github.com/01-edu/z01.PrintRune"
 	"os"
 )
