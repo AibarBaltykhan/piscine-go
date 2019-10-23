@@ -7,7 +7,7 @@ import (
 
 func main() {
 	a := os.Args
-	l := 0
+	l := -1
 	for i := range a {
 		l++
 		i = i
