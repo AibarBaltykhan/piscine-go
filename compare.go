@@ -15,11 +15,11 @@ func Compare(a, b string) int {
 		z = z
 	}
 	if l1 > l2 {
-	n = l2
+		n = l2
 	} else {
 		n = l1
- 	}
-  	r1 := []rune(a)
+	}
+	r1 := []rune(a)
 	r2 := []rune(b)
 	for i := 0; i <= l1; i++ {
 		if r1[i] > r2[i] {
@@ -34,7 +34,7 @@ func Compare(a, b string) int {
 	}
 	if l1 > l2 {
 		return 1
-		}
+	}
 		if l1 < l2 {
 		return -1
 	}
