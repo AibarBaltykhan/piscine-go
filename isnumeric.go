@@ -1,6 +1,6 @@
 package piscine
 
-func IsAlpha(str string) bool {
+func IsNumeric(str string) bool {
 	runes := []rune(str)
 	for i := range runes {
 		if runes[i] < '0' || runes[i] > '9' {
