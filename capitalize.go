@@ -10,11 +10,11 @@ func Capitalize(s string) string {
 	}
 	for i := 0; i <= l; i++ {
 		if runes[i] == ' ' {
-			if runes[a+1] >= 'a' && runes[a+1] <= 'z' {
+			if runes[i+1] >= 'a' && runes[i+1] <= 'z' {
 				runes[i+1] = runes[i+1] - 32
 			}
 		}
 	}
-	s := string(runes)
+	s = string(runes)
 	return s
 }
