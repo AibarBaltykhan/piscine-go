@@ -10,6 +10,7 @@ func main() {
 	l := 0
 	for i := range a {
 		l++
+		i = i
 	}
 	for i := l; i >= 1; i-- {
 		s := []rune(a[i])
