@@ -38,4 +38,5 @@ func Compare(a, b string) int {
 	if l1 < l2 {
 		return -1
 	}
+	return 0
 }
