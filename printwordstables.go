@@ -4,7 +4,7 @@ import "github.com/01-edu/z01"
 
 func PrintWordsTables(table []string) {
 	for i := range table {
-		PrintStr(str table[i])
+		PrintStr(table[i])
 		z01.PrintRune('\n')
 	}
 }
