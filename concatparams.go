@@ -8,7 +8,7 @@ func ConcatParams(args []string) string {
 		l++
 	}
 	for i := range args {
-		if i <= l-2 {
+		if i <= l-1 {
 			a = a + args[i] + "\n"
 		} else {
 			a = a + args[i]
