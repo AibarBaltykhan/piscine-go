@@ -35,7 +35,7 @@ func SplitWhiteSpaces(str string) []string {
 	if b {
 		arr[j] = str[start:strlLen]
 	}
-	for k := 0; k <= len; k ++ {
+	for k := 0; k <= len; k++ {
 		PrintStr(arr[i])
 	}
 }
