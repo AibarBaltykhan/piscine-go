@@ -8,7 +8,7 @@ func Join(strs []string, sep string) string {
 		k++
 	}
 	for j := 0; j < k-1; j++ {
-		s = s + strs[i] + sep
+		s = s + strs[j] + sep
 	}
 	s = s + strs[k-1]
 	return s
